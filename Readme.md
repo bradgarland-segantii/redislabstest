@@ -16,6 +16,6 @@ press 'q' to quit
 
 This fails and quits with the error:
 
-`NoMethodError: undefined message \`slice!\` for nil:NilClass`
+`NoMethodError: undefined message ``slice!`` for nil:NilClass`
 
 but if I change the resque_init.rb to use local redis, then the rake task above completes all the jobs.
